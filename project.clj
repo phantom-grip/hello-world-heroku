@@ -6,6 +6,7 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [http-kit "2.3.0"]
                  [environ "1.1.0"]]
+  :min-lein-version "2.0.0"
   :uberjar-name "hello-world-heroku.jar"
   :main ^:skip-aot hello-world-heroku.core
   :target-path "target/%s"
