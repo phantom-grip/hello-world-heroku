@@ -1,0 +1,1 @@
+web: java $JVM_OPTS -cp target/uberjar/hello-world-heroku.jar clojure.main -m hello-world-heroku.core $PORT
